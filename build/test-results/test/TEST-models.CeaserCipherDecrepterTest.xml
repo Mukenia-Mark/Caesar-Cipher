@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="models.CeaserCipherDecrepterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-14T02:37:54" hostname="Banter" time="0.087">
+<testsuite name="models.CeaserCipherDecrepterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-14T03:15:42" hostname="Banter" time="0.098">
   <properties/>
-  <testcase name="newCeaserCipherDecrepter_newMessageInput()" classname="models.CeaserCipherDecrepterTest" time="0.062"/>
-  <testcase name="newCeaserCipherDecrepter_instantiatesCorrectly()" classname="models.CeaserCipherDecrepterTest" time="0.02"/>
+  <testcase name="newCeaserCipherDecrepter_newShiftInput()" classname="models.CeaserCipherDecrepterTest" time="0.078"/>
+  <testcase name="newCeaserCipherDecrepter_newMessageInput()" classname="models.CeaserCipherDecrepterTest" time="0.005"/>
+  <testcase name="newCeaserCipherDecrepter_decreptMessage()" classname="models.CeaserCipherDecrepterTest" time="0.005"/>
+  <testcase name="newCeaserCipherDecrepter_instantiatesCorrectly()" classname="models.CeaserCipherDecrepterTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

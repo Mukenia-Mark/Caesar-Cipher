@@ -16,4 +16,16 @@ class CeaserCipherDecrepterTest {
     CeaserCipherDecrepter testCeaserCipherDecrepter = new CeaserCipherDecrepter("lipps", 4);
     assertEquals("lipps", testCeaserCipherDecrepter.getMessage());
   }
+  
+  @Test
+  public void newCeaserCipherDecrepter_newShiftInput() {
+    CeaserCipherDecrepter testCeaserCipherDecrepter = new CeaserCipherDecrepter("lipps", 4);
+    assertEquals(4, testCeaserCipherDecrepter.getShift());
+  }
+  
+  @Test
+  public void newCeaserCipherDecrepter_decreptMessage() {
+    CeaserCipherDecrepter testCeaserCipherDecreptor = new CeaserCipherDecrepter("lipps", 4);
+    assertEquals("hello", testCeaserCipherDecreptor.decreptMessage(testCeaserCipherDecreptor));
+  }
 }
