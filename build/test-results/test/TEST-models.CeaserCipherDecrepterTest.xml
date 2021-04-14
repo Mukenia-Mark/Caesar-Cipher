@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.CeaserCipherDecrepterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-14T02:37:54" hostname="Banter" time="0.087">
+  <properties/>
+  <testcase name="newCeaserCipherDecrepter_newMessageInput()" classname="models.CeaserCipherDecrepterTest" time="0.062"/>
+  <testcase name="newCeaserCipherDecrepter_instantiatesCorrectly()" classname="models.CeaserCipherDecrepterTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
