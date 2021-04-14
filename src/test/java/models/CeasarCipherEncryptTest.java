@@ -22,4 +22,10 @@ class CeasarCipherEncryptTest {
     CeasarCipherEncrypt testCeaserCipherEncrypt = new CeasarCipherEncrypt("hello", 4);
     assertEquals(4, testCeaserCipherEncrypt.getShift());
   }
+  
+  @Test
+  public void newCeaserCipherEncrypt_encryptMessage() {
+    CeasarCipherEncrypt testCeaserCipherEncrypt = new CeasarCipherEncrypt("hello",4);
+    assertEquals("lipps", testCeaserCipherEncrypt.encryptMessage(testCeaserCipherEncrypt));
+  }
 }
