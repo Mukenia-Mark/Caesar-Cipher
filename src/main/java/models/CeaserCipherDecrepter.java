@@ -4,6 +4,7 @@ public class CeaserCipherDecrepter {
   
   private String message;
   private int shift;
+  private String decryption;
   
   public CeaserCipherDecrepter(String message, int shift) {
   this.message = message;
@@ -33,4 +34,5 @@ public class CeaserCipherDecrepter {
     String decreption = result.toString();
     return decreption;
   }
+
 }

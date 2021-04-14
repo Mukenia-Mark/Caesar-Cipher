@@ -4,6 +4,7 @@ public class CeasarCipherEncrypt {
   
   private String message;
   private int shift;
+  private String encryption;
   
   public CeasarCipherEncrypt(String message, int shift) {
     this.message = message;
