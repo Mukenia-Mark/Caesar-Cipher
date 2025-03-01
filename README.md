@@ -9,7 +9,6 @@ substitution cipher in which each letter in the text is replaced by a letter som
 of positions down the alphabet.
 
 ## Getting Started:
-{setup instructions}
 
 ## Dependencies:
 
